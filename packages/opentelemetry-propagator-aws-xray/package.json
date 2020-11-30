@@ -1,6 +1,6 @@
 {
-  "name": "@aws/otel-aws-xray-propagator",
-  "version": "0.12.1",
+  "name": "@tradecast/aws-otel-aws-xray-propagator",
+  "version": "0.13.0",
   "description": "OpenTelemetry AWS Xray propagator provides HTTP header propagation for systems that are using AWS Xray HTTP header format.",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
@@ -42,7 +42,8 @@
     "README.md"
   ],
   "publishConfig": {
-    "access": "public"
+    "always-auth": true,
+    "registry": "https://npm.tradecast.eu:4879"
   },
   "devDependencies": {
     "@opentelemetry/context-base": "^0.12.0",

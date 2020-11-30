@@ -1,6 +1,6 @@
 {
-  "name": "@aws/otel-aws-xray-id-generator",
-  "version": "0.12.1",
+  "name": "@tradecast/aws-otel-aws-xray-id-generator",
+  "version": "0.13.0",
   "description": "AWS X-Ray ID generator for OpenTelemetry",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
@@ -35,6 +35,10 @@
     "LICENSE",
     "README.md"
   ],
+  "publishConfig": {
+    "always-auth": true,
+    "registry": "https://npm.tradecast.eu:4879"
+  },
   "devDependencies": {
     "@types/mocha": "7.0.2",
     "@types/node": "12.12.47",
